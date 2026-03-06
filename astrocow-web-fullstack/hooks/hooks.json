@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '세션이 시작되었습니다. 다음 에이전트 구성을 숙지하세요:\\n\\n- po (Opus): 전체 조율 및 중재\\n- architect (Opus): 전체 시스템 설계 전담\\n- ui-designer (Sonnet): 화면 설계 및 디자인 시스템\\n- frontend (Sonnet): Next.js 기반 프론트엔드 구현\\n- backend (Sonnet): API 서버 및 DB 구현\\n- infra (Sonnet): Kubernetes / Terraform 인프라\\n\\n개발 작업 요청이 오면 /astrocow-web-fullstack 커맨드를 안내하거나 po 에이전트 역할로 시작하세요.'"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "astrocow-marketplace",
+  "owner": {
+    "name": "astrocow"
+  },
+  "plugins": [
+    {
+      "name": "astrocow-web-fullstack",
+      "source": "./astrocow-web-fullstack",
+      "description": "PO 주도의 풀스택 개발 워크플로우 플러그인"
+    }
+  ]
+}

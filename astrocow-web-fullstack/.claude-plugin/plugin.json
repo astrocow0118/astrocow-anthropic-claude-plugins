@@ -1,0 +1,14 @@
+{
+  "name": "astrocow-web-fullstack",
+  "version": "1.0.0",
+  "description": "PO 주도의 풀스택 개발 워크플로우 플러그인",
+  "agents": [
+    "./agents/architect/AGENT.md",
+    "./agents/backend/AGENT.md",
+    "./agents/frontend/AGENT.md",
+    "./agents/infra/AGENT.md",
+    "./agents/po/AGENT.md",
+    "./agents/ui-designer/AGENT.md"
+  ],
+  "commands": ["./commands/astrocow-web-fullstack.md"]
+}
